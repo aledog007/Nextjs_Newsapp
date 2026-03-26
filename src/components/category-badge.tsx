@@ -20,7 +20,7 @@ export default function CategoryBadge({ category, asLink = false }: CategoryBadg
 
   if (asLink) {
     return (
-      <Link href={href} className={`${className} hover:opacity-80 transition-opacity`}>
+      <Link href={href} className={`${className} relative z-10 hover:opacity-80 transition-opacity`}>
         {category}
       </Link>
     );

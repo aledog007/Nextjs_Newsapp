@@ -27,7 +27,7 @@ Access GPT-5 through the OpenAI platform. Existing API keys are compatible, but 
     publishedAt: '2026-03-10T09:00:00Z',
     source: 'AI Weekly',
     sourceUrl: 'https://aiweekly.co',
-    imageUrl: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=1600&q=80',
     readingTimeMinutes: 5,
   },
   {
@@ -66,7 +66,7 @@ Existing Next.js 15 apps can upgrade with minimal changes. The team has provided
     publishedAt: '2026-03-09T11:30:00Z',
     source: 'Vercel Blog',
     sourceUrl: 'https://vercel.com/blog',
-    imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=1600&q=80',
     readingTimeMinutes: 4,
   },
   {
@@ -101,7 +101,7 @@ The vulnerability was reported privately to the maintainers on February 28. A pa
     publishedAt: '2026-03-08T14:00:00Z',
     source: 'Security Weekly',
     sourceUrl: 'https://securityweekly.com',
-    imageUrl: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1563206767-5b18f218e8de?w=1600&q=80',
     readingTimeMinutes: 6,
   },
   {
@@ -132,7 +132,7 @@ Over 95% of top-1000 npm packages for React Native now support the New Architect
     publishedAt: '2026-03-07T08:00:00Z',
     source: 'React Native Blog',
     sourceUrl: 'https://reactnative.dev/blog',
-    imageUrl: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=1600&q=80',
     readingTimeMinutes: 5,
   },
   {
@@ -163,7 +163,7 @@ Linux 7.0 is available from kernel.org. Major distributions are expected to ship
     publishedAt: '2026-03-06T16:00:00Z',
     source: 'LWN.net',
     sourceUrl: 'https://lwn.net',
-    imageUrl: 'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=1600&q=80',
     readingTimeMinutes: 7,
   },
   {
@@ -195,7 +195,7 @@ Available now via api.anthropic.com. Model ID: claude-4-sonnet-20260310.`,
     publishedAt: '2026-03-05T10:00:00Z',
     source: 'Anthropic Blog',
     sourceUrl: 'https://anthropic.com/blog',
-    imageUrl: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=1600&q=80',
     readingTimeMinutes: 4,
   },
   {
@@ -224,7 +224,7 @@ SvelteKit 3 ships alongside Svelte 6 with improved server streaming support and 
     publishedAt: '2026-03-04T13:00:00Z',
     source: 'Svelte Blog',
     sourceUrl: 'https://svelte.dev/blog',
-    imageUrl: 'https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1593720213428-28a5b9e94613?w=1600&q=80',
     readingTimeMinutes: 5,
   },
   {
@@ -258,7 +258,7 @@ iOS 20 Beta 1 is available at developer.apple.com. The public beta launches in J
     publishedAt: '2026-03-03T09:00:00Z',
     source: 'Apple Developer News',
     sourceUrl: 'https://developer.apple.com/news',
-    imageUrl: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1585771724684-38269d6639fd?w=1600&q=80',
     readingTimeMinutes: 6,
   },
   {
@@ -300,7 +300,7 @@ Use pg_upgrade for in-place upgrades from Postgres 14+. Major cloud providers (A
     publishedAt: '2026-03-02T12:00:00Z',
     source: 'PostgreSQL News',
     sourceUrl: 'https://postgresql.org/news',
-    imageUrl: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=1600&q=80',
     readingTimeMinutes: 6,
   },
   {
@@ -329,7 +329,7 @@ The draft is in last call. Final RFC publication is expected Q3 2026.`,
     publishedAt: '2026-03-01T15:00:00Z',
     source: 'IETF',
     sourceUrl: 'https://ietf.org',
-    imageUrl: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1614064641938-3bbee52942c7?w=1600&q=80',
     readingTimeMinutes: 5,
   },
   {
@@ -363,7 +363,7 @@ For greenfield projects: yes, absolutely. For existing projects: test your test 
     publishedAt: '2026-02-28T10:00:00Z',
     source: 'Bun Blog',
     sourceUrl: 'https://bun.sh/blog',
-    imageUrl: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1629654297299-c8506221ca97?w=1600&q=80',
     readingTimeMinutes: 5,
   },
   {
@@ -409,7 +409,7 @@ Use \`@supports\` to provide a fallback for older browsers:
     publishedAt: '2026-02-27T11:00:00Z',
     source: 'CSS-Tricks',
     sourceUrl: 'https://css-tricks.com',
-    imageUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?w=1600&q=80',
     readingTimeMinutes: 4,
   },
 ];

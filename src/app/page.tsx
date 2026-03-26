@@ -13,8 +13,7 @@ export const metadata: Metadata = {
   description: 'Stay current with the latest in AI, Web, Mobile, Security, and Open Source.',
 };
 
-// Ch. 8 - Static rendering with ISR revalidation
-export const revalidate = 3600;
+export const dynamic = 'force-dynamic';
 
 interface HomePageProps {
   searchParams: Promise<{ q?: string }>;

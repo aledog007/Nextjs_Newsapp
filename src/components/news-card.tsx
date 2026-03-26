@@ -19,15 +19,16 @@ export default function NewsCard({ article, featured = false }: NewsCardProps) {
 
   if (featured) {
     return (
-      <Link href={`/article/${article.id}`} className="group block">
+      <div className="group">
         <article className="relative rounded-2xl overflow-hidden border border-[var(--card-border)] bg-[var(--card)] hover:border-[var(--accent)]/50 transition-all duration-300">
-          <div className="relative h-64 sm:h-80 w-full">
+          <div className="relative h-64 sm:h-80 w-full overflow-hidden">
             <Image
               src={article.imageUrl}
               alt={article.title}
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              className="object-cover transition-transform duration-500 group-hover:scale-105 will-change-transform"
               sizes="(max-width: 768px) 100vw, 1200px"
+              quality={90}
               priority
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)] via-[var(--card)]/40 to-transparent" />
@@ -39,7 +40,9 @@ export default function NewsCard({ article, featured = false }: NewsCardProps) {
               <span className="text-xs text-[var(--muted)]">{article.readingTimeMinutes} min read</span>
             </div>
             <h2 className="text-2xl font-bold text-[var(--foreground)] mb-2 group-hover:text-[var(--accent-hover)] transition-colors line-clamp-2">
-              {article.title}
+              <Link href={`/article/${article.id}`} className="after:absolute after:inset-0 after:z-0">
+                {article.title}
+              </Link>
             </h2>
             <p className="text-[var(--muted)] line-clamp-2 text-sm leading-relaxed">{article.summary}</p>
             <div className="mt-4 flex items-center gap-2 text-xs text-[var(--muted)]">
@@ -49,20 +52,21 @@ export default function NewsCard({ article, featured = false }: NewsCardProps) {
             </div>
           </div>
         </article>
-      </Link>
+      </div>
     );
   }
 
   return (
-    <Link href={`/article/${article.id}`} className="group block h-full">
-      <article className="h-full rounded-xl overflow-hidden border border-[var(--card-border)] bg-[var(--card)] hover:border-[var(--accent)]/50 transition-all duration-300 flex flex-col">
-        <div className="relative h-48 w-full flex-shrink-0">
+    <div className="group h-full">
+      <article className="relative h-full rounded-xl overflow-hidden border border-[var(--card-border)] bg-[var(--card)] hover:border-[var(--accent)]/50 transition-all duration-300 flex flex-col">
+        <div className="relative h-48 w-full flex-shrink-0 overflow-hidden">
           <Image
             src={article.imageUrl}
             alt={article.title}
             fill
-            className="object-cover transition-transform duration-500 group-hover:scale-105"
+            className="object-cover transition-transform duration-500 group-hover:scale-105 will-change-transform"
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+            quality={85}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-[var(--card)]/80 to-transparent" />
         </div>
@@ -72,7 +76,9 @@ export default function NewsCard({ article, featured = false }: NewsCardProps) {
             <span className="text-xs text-[var(--muted)] ml-auto">{article.readingTimeMinutes} min</span>
           </div>
           <h3 className="text-base font-semibold text-[var(--foreground)] mb-2 group-hover:text-[var(--accent-hover)] transition-colors line-clamp-2 flex-1">
-            {article.title}
+            <Link href={`/article/${article.id}`} className="after:absolute after:inset-0 after:z-0">
+              {article.title}
+            </Link>
           </h3>
           <p className="text-xs text-[var(--muted)] line-clamp-3 mb-3 leading-relaxed">{article.summary}</p>
           <div className="flex items-center gap-2 text-xs text-[var(--muted)] mt-auto">
@@ -82,6 +88,6 @@ export default function NewsCard({ article, featured = false }: NewsCardProps) {
           </div>
         </div>
       </article>
-    </Link>
+    </div>
   );
 }
