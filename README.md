@@ -147,9 +147,4 @@ npm run build
 
 ## Framework Analyse
 
-Dieses Projekt entstand im Rahmen einer Analyse von modernen Web Frameworks. Dokumentiert wurden:
-
-- **Ecosystem** — Libraries, Community, Tooling
-- **Performance** — Rendering Strategien (SSG, SSR, CSR), Core Web Vitals
-- **Business Model & Pricing** — Open Source, Vercel Kosten, Self Hosting
-- **Scalability** — Edge Runtime, ISR, Caching
+Dieses Projekt entstand im Rahmen einer Analyse von modernen Web Frameworks. Dokumentiert wurde im PDF.
