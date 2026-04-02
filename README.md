@@ -2,7 +2,7 @@
 
 Gruppenprojekt im Rahmen der Framework-Analyse. Wir haben das offizielle **Next.js Learn Tutorial** als Grundlage genommen und darauf eine Tech-News-App gebaut.
 
-**Live-Deployment:** [Static page]((https://aledog007.github.io/))
+**Live-Deployment:** [Static Page](https://aledog007.github.io/)
 
 ---
 
